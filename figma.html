@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h3>Back</h3>
+    <h3>Powder</h3>
+
+     <img src="powder.jpg" alt="image of back powder" class="center">
+    
+     <div>
+        <h2 style="text-align: center;">$65.00</h2>
+     </div>
+    
+     <input type="submit" value="Pay" class="btn">
+
+     <div>
+         <p style="text-align: center; color: rgb(89, 94, 94);">or pay with card</p>
+     </div>
+
+    <div class="payment">
+        <label for="email"> Email</label>
+        <input type="text" id="email" name="email" placeholder="john@example.com">
+
+        <label for="fname">Cards</label>
+        <div class="icon-container">
+          <i style="color:navy;">visa</i>
+          <i style="color:blue;">amex</i>
+          <i  style="color:red;">mastercard</i>
+          <i  style="color:orange;">amazon</i>
+        </div>
+        <label for="cname">Name on Card</label>
+        <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+        <label for="ccnum">Credit card number</label>
+        <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+        <label for="expmonth">Exp Month</label>
+        <input type="text" id="expmonth" name="expmonth" placeholder="September">
+
+        <div class="row">
+          <div class="col-50">
+            <label for="expyear">Exp Year</label>
+            <input type="text" id="expyear" name="expyear" placeholder="2018">
+          </div>
+          <div class="col-50">
+            <label for="cvv">CVV</label>
+            <input type="text" id="cvv" name="cvv" placeholder="352">
+          </div>
+        </div>
+    </div>
+
+    <input type="submit" value="Pay $65.00" class="btn">
+
+</body>
+</html>
